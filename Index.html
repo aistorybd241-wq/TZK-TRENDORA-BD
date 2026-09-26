@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Mobile friendly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Search Title -->
+  <title>TZK Trendora BD | Online Fashion Store</title>
+
+  <!-- Google/Search description -->
+  <meta name="description"
+        content="TZK Trendora BD - Trendy and affordable fashion products in Bangladesh. Shop premium T-shirts online.">
+
+  <meta name="keywords"
+        content="TZK Trendora BD, T-shirt Bangladesh, online fashion store, men's T-shirt, fashion Bangladesh">
+
+  <meta name="author" content="TZK Trendora BD">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #f6f6f6;
+      color: #222;
+    }
+
+    /* HEADER */
+    header {
+      background: #111;
+      color: white;
+      padding: 16px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #ff4d4d;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 65vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(135deg, #111, #444);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 44px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 19px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 25px;
+      background: #ff4d4d;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #e63939;
+    }
+
+    /* PRODUCTS */
+    .products {
+      padding: 55px 6%;
+      text-align: center;
+    }
+
+    .products h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .product {
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,.1);
+      padding-bottom: 22px;
+    }
+
+    .product img {
+      width: 100%;
+      height: 330px;
+      object-fit: cover;
+      display: block;
+      background: #ddd;
+    }
+
+    .product h3 {
+      margin: 17px 0 8px;
+      font-size: 21px;
+    }
+
+    .price {
+      font-size: 23px;
+      font-weight: bold;
+      margin-bottom: 17px;
+    }
+
+    /* ABOUT */
+    .about {
+      padding: 55px 8%;
+      text-align: center;
+      background: white;
+    }
+
+    .about h2 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .about p {
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.7;
+    }
+
+    /* CONTACT */
+    .contact {
+      padding: 55px 8%;
+      text-align: center;
+      background: #f1f1f1;
+    }
+
+    .contact h2 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .contact p {
+      margin-bottom: 20px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    /* MOBILE */
+    @media (max-width: 600px) {
+
+      header {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .logo {
+        font-size: 20px;
+      }
+
+      nav a {
+        margin: 0 6px;
+        font-size: 13px;
+      }
+
+      .hero {
+        min-height: 55vh;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      .product img {
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+
+    <div class="logo">
+      TZK Trendora BD
+    </div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+  </header>
+
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+
+    <div>
+
+      <h1>
+        TZK Trendora BD
+      </h1>
+
+      <p>
+        Trendy Fashion at an Affordable Price
+      </p>
+
+      <a href="#products" class="btn">
+        Shop Now
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- PRODUCTS -->
+  <section class="products" id="products">
+
+    <h2>
+      Our Products
+    </h2>
+
+    <div class="product-grid">
+
+
+      <!-- PRODUCT 1 -->
+      <div class="product">
+
+        <!-- এখানে তোমার product image-এর URL বসাবে -->
+        <img
+          src="https://via.placeholder.com/500x600.png?text=TZK+T-Shirt"
+          alt="TZK Trendora BD Premium T-Shirt"
+        >
+
+        <h3>
+          Premium T-Shirt
+        </h3>
+
+        <div class="price">
+          ৳670
+        </div>
+
+        <!-- তোমার WhatsApp number এখানে বসাবে -->
+        <a
+          class="btn"
+          href="https://wa.me/8801XXXXXXXXX?text=Hello%20TZK%20Trendora%20BD,%20I%20want%20to%20order%20the%20Premium%20T-Shirt."
+          target="_blank"
+        >
+          Order Now
+        </a>
+
+      </div>
+
+
+      <!-- PRODUCT 2 -->
+      <div class="product">
+
+        <img
+          src="https://via.placeholder.com/500x600.png?text=Fashion+Collection"
+          alt="TZK Trendora BD Fashion Collection"
+        >
+
+        <h3>
+          Fashion Collection
+        </h3>
+
+        <div class="price">
+          ৳670
+        </div>
+
+        <a
+          class="btn"
+          href="https://wa.me/8801XXXXXXXXX?text=Hello%20TZK%20Trendora%20BD,%20I%20want%20to%20order%20this%20product."
+          target="_blank"
+        >
+          Order Now
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+
+    <h2>
+      About TZK Trendora BD
+    </h2>
+
+    <p>
+      TZK Trendora BD is an online fashion store in Bangladesh.
+      We provide trendy and affordable fashion products for our customers.
+      Shop online and contact us directly for orders.
+    </p>
+
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+
+    <h2>
+      Contact TZK Trendora BD
+    </h2>
+
+    <p>
+      📱 WhatsApp: 01406825732
+    </p>
+
+    <a
+      class="btn"
+      href="https://wa.me/8801406825732
+      target="_blank"
+    >
+      Chat on WhatsApp
+    </a>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>
+      © 2026 TZK Trendora BD. All Rights Reserved.
+    </p>
+
+  </footer>
+
+</body>
+</html>
